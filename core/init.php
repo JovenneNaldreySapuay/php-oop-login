@@ -3,10 +3,10 @@ session_start();
 
 $GLOBALS['config'] = array(
 	'mysql' => array(
-		'host' 	   => '127.0.0.1',
-		'username' => 'root',
-		'password' => '',
-		'db' 	   => 'oop_login_db',
+		'host' 	   => 'YOUR HOST',
+		'username' => 'YOUR USERNAME',
+		'password' => 'YOUR PASSWORD',
+		'db' 	   => 'YOUD DB NAME',
 	),
 	'remember' => array(
 		'cookie_name'   => 'hash',
